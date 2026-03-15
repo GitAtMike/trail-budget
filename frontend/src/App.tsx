@@ -1,9 +1,17 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from './pages/Home'
+import NewTrip from "./pages/NewTrip"
+import SavedTrips from "./pages/SavedTrips"
+
 function App(){
   return(
-    <div>
-      <h1>TrailBudget</h1>
-      <p>Plan your hike. Know your cost.</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/new-trip" element={<NewTrip />} />
+        <Route path="/saved-trips" element={<SavedTrips />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
