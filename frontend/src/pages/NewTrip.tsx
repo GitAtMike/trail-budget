@@ -6,11 +6,11 @@ function NewTrip() {
     const [form, setForm] = useState<TripFormData>({
         name: '',
         destination: '',
-        distance_miles: 0,
-        gas_cost: 0,
-        food_cost: 0,
-        permit_cost: 0,
-        gear_cost: 0,
+        distance_miles: '',
+        gas_cost: '',
+        food_cost: '',
+        permit_cost: '',
+        gear_cost: '',
         notes: '',
     })
 

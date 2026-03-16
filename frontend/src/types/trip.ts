@@ -14,10 +14,10 @@ export interface Trip{
 export interface TripFormData{
     name: string
     destination: string
-    distance_miles: number
-    gas_cost: number
-    food_cost: number
-    permit_cost: number
-    gear_cost: number
+    distance_miles: number | string
+    gas_cost: number | string
+    food_cost: number | string
+    permit_cost: number | string
+    gear_cost: number | string
     notes: string
 }
