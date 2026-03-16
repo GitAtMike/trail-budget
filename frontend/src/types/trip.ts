@@ -11,7 +11,7 @@ export interface Trip{
     created_at: string
 }
 
-export interface NewTrip{
+export interface TripFormData{
     name: string
     destination: string
     distance_miles: number
