@@ -32,6 +32,7 @@ npm run dev
 
 The app will be available at `http://localhost:5173`
 
+```
 ## Project Structure
 frontend/
 ├── src/
@@ -39,6 +40,7 @@ frontend/
 │   ├── pages/         # Home, NewTrip, SavedTrips
 │   ├── types/         # TypeScript interfaces (Trip, TripFormData)
 │   └── App.tsx        # Root component with routing
+```
 
 ## Status
 
